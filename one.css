@@ -1,0 +1,296 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+
+
+
+/*--------------------------------------start nv-bar----------------------------------------------- */
+.logo{
+    color: #ffb617;
+    font-weight: bold;
+    font-size: 30px;
+}
+.logo:hover{
+    color: #ffb617;
+}
+
+.navbar{
+background-color: #0c0c0c;
+   color: #ffffff;
+}
+
+.navbar .nav-link{
+    color: white;
+}
+.navbar .nav-link:active,
+.navbar .nav-link:hover,
+.navbar .nav-link:focus
+{
+    color: #ffb617;
+}
+.icon_nav{
+    cursor: pointer;
+}
+
+form i{
+    font-size: 16px;
+    margin-right: 20px;
+}
+form i:hover{
+    color: #ffb617;
+    
+}
+.right_btn{
+    width: 150px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #ffb617;
+}
+/*--------------------------------------end nv-bar----------------------------------------------- */
+
+
+/*--------------------------------------start sec1----------------------------------------------- */
+
+
+
+.sec1{
+    background-image:url(./Template1-main/images/b.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* overflow: hidden; */
+  }
+  
+  .fast_food{
+      font-size: 40px;
+      color: #ffb617;
+  }
+  
+  .P_sec1{
+      font-size: 20px;
+      color: white;
+  }
+  .fast_food,.navbar-brand{
+      font-family: 'Dancing Script', cursive;
+  }
+.order-btn{
+    width: 200px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #ffb617;
+}
+
+/*--------------------------------------end sec1---------------------------------------------- */
+
+/*--------------------------------------start sec2----------------------------------------------- */
+.cart,.card,.cer{
+    /* background-color: var(--gray-dark); */
+    background-color: #222831;
+    border-radius: 20px;
+}
+.card{
+    height: 250px;
+}
+.im_h ,.d_m{
+    width:200px;
+    height:180px;
+ 
+}
+.sale{
+    font-size: 28px;
+    font-weight: bold;
+}
+/* .bm{
+  width: 190px;
+} */
+/* ----------------------------------------end sec2------------------------------------------------------------- */
+
+/* -----------------------------------------start sec3 Meneu------------------------------------------------------------- */
+.menue{
+    color: white;
+    background-color: #0c0c0c;
+    height: 50px;
+    padding-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+.menue h4{
+    color: #ffb617;
+    cursor: pointer;
+}
+
+.li_u{
+    color: #0c0c0c;
+    font-size: 20px;
+    cursor: pointer;
+    /* width:100px; */
+    padding-right: 70px;
+}
+
+
+
+
+
+.box{
+    color: #0c0c0c;
+ 
+    background-color: #222831;
+  
+    border-radius: 25px;
+}
+.im1{
+        position: relative;
+        height: 200px;
+      
+        background-color: #ffb617;
+        border-top-left-radius:20px ;
+        border-top-right-radius : 20px;
+        /* border-bottom-left-radius: 20%; */
+}
+
+.img-meneu{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin: auto;
+    transition: 0.3s;
+}
+.img-meneu:hover{
+   transform: scale(1.1);
+ }
+
+.Data-meneu{
+    color: #ffffff;
+}
+.car{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #ffb617;
+}
+.i-meneu{
+    position: relative;
+    left:20%;
+}
+
+/* .view-more{
+    margin-left: 40%;
+}  */
+
+/* -----------------------------------------end sec3 Meneu------------------------------------------------------------- */
+
+
+/* -----------------------------------------start sec4------------------------------------------------------------- */
+.sec4{
+
+    background-color: hsl(216, 18%, 16%);
+    /* background-color: red; */
+    margin-top: 50px;
+    color: #f1f2f3;
+    padding: 48px 16px;
+    /* margin-bottom: 0px; */
+    
+}
+    
+.sec4_img{
+        /* max-width: 445px; */
+        width: 445px; 
+      
+}
+.sec4 .headp{
+    font-size: 35px;
+}
+.sec4-btn{
+margin: auto;
+}
+
+/* -----------------------------------------end sec4------------------------------------------------------------- */
+
+
+/* -----------------------------------------start sec5------------------------------------------------------------- */
+.sec5{
+    margin-top: 10px;
+    background-color: #222831;
+    
+}
+    
+.book-table{
+        color: #ffb617;
+        
+}
+    
+.contact{
+        color: #0c0c0c;} 
+        
+.booknow-btn{
+        width: 200px;
+}
+    
+.map{
+        height:100%;
+        width: 100%;
+}
+    
+.location {
+    color: #ffb617;
+}
+
+
+
+/* -----------------------------------------end sec5 ------------------------------------------------------------- */
+
+/* -----------------------------------------start  sec6 ------------------------------------------------------------- */
+.sec6{
+    color: #0c0c0c;
+    background-color: #ffb617;
+    background-color: #222831;
+}
+.sec6 h3{
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+.data_final{
+    /* background-color: var(--gray-dark); */
+    background-color: #222831;
+    background-color: #ffb617;
+    color: #f1f2f3;
+    margin-left: 0px;
+
+}
+.clients-imgs img{
+    width: 100px;
+    height: 100px;
+}
+
+/* -----------------------------------------end  sec6 ------------------------------------------------------------- */
+.social{
+    border-radius: 10px;
+}
+.socil section .bb{
+    border-radius: 50%;
+}
+
+
+.footer{
+    background-color: var(--gray-dark);
+    /* background-color: red; */
+    color: #ffb617;
+}
+    
+.footer h4{
+    color: #ffb617;
+}
+
+
